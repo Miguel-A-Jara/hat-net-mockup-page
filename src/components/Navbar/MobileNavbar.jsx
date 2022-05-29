@@ -47,7 +47,7 @@ const MobileNavbar = () => {
             onClick={toggleNavbar}
             className={`${
               isNavOpened ? 'rotate-0 scale-100' : 'rotate-90 scale-0'
-            } order-1 cursor-pointer justify-self-end text-xl transition-all duration-500 md:text-3xl`}
+            } order-1 cursor-pointer justify-self-end text-xl transition-all duration-500 md:text-3xl px-4`}
           >
             <i className='bi bi-x-lg text-white transition-all duration-300 hover:text-black'></i>
           </button>
