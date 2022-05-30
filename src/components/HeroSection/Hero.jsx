@@ -10,7 +10,7 @@ const Hero = () => {
         <img
           className='relative z-10 mx-auto ml-auto block w-full max-w-sm object-cover md:max-w-screen-sm lg:max-w-screen-md'
           alt='hero-page'
-          src='/src/assets/SVGs/undraw_functions_re_alho.svg'
+          src='/public/assets/SVGs/undraw_functions_re_alho.svg'
         />
         <div className='absolute right-0 bottom-0 min-h-[25%] w-3/4 rounded-l-full bg-purple'></div>
       </div>

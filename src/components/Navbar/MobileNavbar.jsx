@@ -38,7 +38,7 @@ const MobileNavbar = () => {
               className={`${
                 isNavOpened ? 'scale-100' : 'scale-0'
               } block max-w-full invert transition-all duration-300`}
-              src='/src/assets/images/logo.png'
+              src='/public/assets/images/logo.png'
               alt='logo-brand'
             />
           </div>
