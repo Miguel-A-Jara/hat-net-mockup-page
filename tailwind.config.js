@@ -6,7 +6,7 @@ module.exports = {
         purple: '#6c63ff',
         violet: '#b0a4da',
         cream: '#fefedf',
-        'light-brown': '#d5cabd',
+        'light-green': '#484554',
       },
     },
   },

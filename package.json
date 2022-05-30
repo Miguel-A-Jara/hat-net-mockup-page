@@ -10,7 +10,9 @@
   "dependencies": {
     "framer-motion": "^6.3.4",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-tsparticles": "^2.0.6",
+    "tsparticles": "^2.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
