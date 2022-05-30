@@ -19,7 +19,7 @@ const MobileNavbar = () => {
         onClick={toggleNavbar}
         className={`${
           isNavOpened ? 'hidden' : ''
-        } order-1 cursor-pointer justify-self-end text-xl md:text-3xl`}
+        } order-1 cursor-pointer justify-self-end text-2xl md:text-3xl`}
       >
         <i className='bi bi-list text-white transition-all duration-300 hover:text-black'></i>
       </button>
@@ -47,7 +47,7 @@ const MobileNavbar = () => {
             onClick={toggleNavbar}
             className={`${
               isNavOpened ? 'rotate-0 scale-100' : 'rotate-90 scale-0'
-            } order-1 cursor-pointer justify-self-end text-xl transition-all duration-500 md:text-3xl px-4`}
+            } order-1 cursor-pointer justify-self-end text-2xl transition-all duration-500 md:text-3xl px-4`}
           >
             <i className='bi bi-x-lg text-white transition-all duration-300 hover:text-black'></i>
           </button>
