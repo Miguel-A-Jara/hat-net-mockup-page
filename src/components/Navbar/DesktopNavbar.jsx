@@ -8,7 +8,7 @@ const DesktopNavbar = () => {
         {/* We use invert to make the image white */}
         <img
           className='block max-w-full cursor-pointer invert transition-all duration-300 hover:animate-pulse hover:invert-0'
-          src='./public/images/logo.png'
+          src='/images/logo.png'
           alt='logo-brand'
         />
       </div>
