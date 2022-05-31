@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import NavbarItem from './NavbarItem';
 
 const MobileNavbar = () => {
+
+  /* We import the assets using const, so vite can access them during the building process */
+  const logo = '/logo.png';
+
   const [isNavOpened, setIsNavOpened] = useState(false);
 
   const toggleNavbar = () => {
@@ -38,7 +42,7 @@ const MobileNavbar = () => {
               className={`${
                 isNavOpened ? 'scale-100' : 'scale-0'
               } block max-w-full invert transition-all duration-300`}
-              src='images/logo.png'
+              src={logo}
               alt='logo-brand'
             />
           </div>

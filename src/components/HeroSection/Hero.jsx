@@ -3,6 +3,10 @@ import Button from '../Button/Button';
 import CallToActionButton from '../Button/CallToActionButton';
 
 const Hero = () => {
+
+  /* We import the assets using const, so vite can access them during the building process */
+  const heroImg = '/heroImg.svg';
+
   return (
     <div className='mt-10 flex flex-col items-center justify-between lg:flex-row-reverse'>
       {/* Image Hero */}
@@ -10,7 +14,7 @@ const Hero = () => {
         <img
           className='relative z-10 mx-auto ml-auto block w-full max-w-sm object-cover md:max-w-screen-sm lg:max-w-screen-md'
           alt='hero-page'
-          src='SVGs/undraw_functions_re_alho.svg'
+          src={heroImg}
         />
         <div className='absolute right-0 bottom-0 min-h-[25%] w-3/4 rounded-l-full bg-purple'></div>
       </div>

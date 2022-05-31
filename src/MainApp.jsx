@@ -6,6 +6,7 @@ import TestSection from './components/PackagesSection/PackagesSection';
 import Footer from './components/Footer/Footer';
 
 const MainApp = () => {
+
   return (
     <div className='min-h-screen bg-black'>
       <NavbarContainer />
