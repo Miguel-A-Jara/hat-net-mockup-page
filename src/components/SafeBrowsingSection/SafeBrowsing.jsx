@@ -12,7 +12,7 @@ const SafeBrowsing = () => {
 
       {/* Image */}
       <div className='relative w-full rounded-l-3xl lg:w-1/2'>
-        <img src='/SVGs/safe_browsing.svg' alt='safe-browsing-img' className='block mx-auto' />
+        <img src='SVGs/safe_browsing.svg' alt='safe-browsing-img' className='block mx-auto' />
       </div>
 
       {/* Grid-Section */}
