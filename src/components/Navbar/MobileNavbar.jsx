@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import NavbarItem from './NavbarItem';
+import logo from '../../images/logo.png';
 
 const MobileNavbar = () => {
-
-  /* We import the assets using const, so vite can access them during the building process */
-  const logo = '/logo.png';
 
   const [isNavOpened, setIsNavOpened] = useState(false);
 

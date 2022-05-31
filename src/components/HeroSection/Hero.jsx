@@ -1,11 +1,9 @@
 import React from 'react';
 import Button from '../Button/Button';
 import CallToActionButton from '../Button/CallToActionButton';
+import heroImg from '../../images/heroImg.svg';
 
 const Hero = () => {
-
-  /* We import the assets using const, so vite can access them during the building process */
-  const heroImg = '/heroImg.svg';
 
   return (
     <div className='mt-10 flex flex-col items-center justify-between lg:flex-row-reverse'>

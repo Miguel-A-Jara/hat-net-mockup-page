@@ -1,14 +1,11 @@
 import React from 'react';
 import NavbarItem from './NavbarItem';
+import logo from '../../images/logo.png';
 
 const DesktopNavbar = () => {
-
-  /* We import the assets using const, so vite can access them during the building process */
-  const logo = '/logo.png';
-
   return (
-    <nav className='hidden items-stretch justify-between bg-purple text-cream lg:flex h-fit'>
-      <div className='w-14 m-2'>
+    <nav className='hidden h-fit items-stretch justify-between bg-purple text-cream lg:flex'>
+      <div className='m-2 w-14'>
         {/* We use invert to make the image white */}
         <img
           className='block max-w-full cursor-pointer invert transition-all duration-300 hover:animate-pulse hover:invert-0'

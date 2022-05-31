@@ -1,10 +1,8 @@
 import React from 'react';
 import SafeBrowsingGrid from './SafeBrowsingGrid';
+import safeBrowsing from '../../images/safeBrowsing.svg';
 
 const SafeBrowsing = () => {
-  /* We import the assets using const, so vite can access them during the building process */
-  const safeBrowsing = '/safeBrowsing.svg';
-
   return (
     <div className='mt-20 flex min-h-screen flex-wrap gap-8 bg-purple p-4 lg:gap-0 lg:p-8'>
       {/* Title */}
